@@ -27,7 +27,6 @@ def addresses_list(request):
         serializer = AddressSerializer(query, many=True)
         return Response(serializer.data)
 
-
     elif request.method == 'POST':
         address = AddressSerializer(data=request.data)
         if address.is_valid():
@@ -58,8 +57,6 @@ def addresses_detail(request, pk):
             serializer.save()
             return Response(serializer.data)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-
 
     elif request.method == 'DELETE':
         address.delete()
