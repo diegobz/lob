@@ -31,5 +31,6 @@ Pet project to work with django-rest-framework
 
     curl -H 'Accept: application/json; indent=4' http://127.0.0.1:8000/api/addresses/
 
-
     curl -H 'Accept: application/json; indent=4' http://127.0.0.1:8000/api/addresses/?search=1600
+
+or open the url in a browser.
