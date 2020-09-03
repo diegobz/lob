@@ -1,0 +1,77 @@
+[
+  {
+  "model": "addresses.address",
+  "pk": 1,
+  "fields": {
+    "line1": "Massachusetts Hall",
+    "city": "Cambridge",
+    "state": "MA",
+    "zipcode": "02138"
+  }},
+  {
+  "model": "addresses.address",
+  "pk": 2,
+  "fields": {
+    "line1": "3400 N. Charles St.",
+    "city": "Baltimore",
+    "state": "MD",
+    "zipcode": "21218"
+  }},
+  {
+  "model": "addresses.address",
+  "pk": 3,
+  "fields": {
+    "line1": "Roosevelt Way NE",
+    "city": "Seattle",
+    "state": "WA",
+    "zipcode": "98115"
+  }},
+  {
+  "model": "addresses.address",
+  "pk": 4,
+  "fields": {
+    "line1": "1600 Holloway Ave",
+    "city": "San Francisco",
+    "state": "CA",
+    "zipcode": "94132"
+  }},
+  {
+  "model": "addresses.address",
+  "pk": 5,
+  "fields": {
+    "line1": "1600 Holloway Ave",
+    "line2": "Suite 10",
+    "city": "San Francisco",
+    "state": "CA",
+    "zipcode": "94132"
+  }},
+  {
+  "model": "addresses.address",
+  "pk": 6,
+  "fields": {
+    "line1": "1600 Holloway Ave",
+    "line2": "Suite 20",
+    "city": "San Francisco",
+    "state": "CA",
+    "zipcode": "94132"
+  }},
+  {
+  "model": "addresses.address",
+  "pk": 7,
+  "fields": {
+    "line1": "500 S State St",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "zipcode": "48109"
+  }},
+  {
+  "model": "addresses.address",
+  "pk": 8,
+  "fields": {
+    "line1": "185 Berry St",
+    "line2": "Suite 6100",
+    "city": "San Francisco",
+    "state": "CA",
+    "zipcode": "94107"
+  }}
+]
